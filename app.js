@@ -10,7 +10,6 @@ const express       = require('express'),
       Campground    = require('./models/campground'),
       Comment       = require('./models/comment'),
       User          = require('./models/user');
-      seedDB        = require('./seed');
 
 const campgroundRoutes = require('./routes/campground'),
       commentRoutes = require('./routes/comment'),
