@@ -53,7 +53,7 @@ app.use(campgroundRoutes);
 app.use(commentRoutes);
 app.use(indexRoutes);
 
-app.listen(3000,function(){
+app.listen(process.env.IP,function(){
     console.log("The Yelp Camp Server has Started!!!");
 })
 
