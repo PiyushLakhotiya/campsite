@@ -52,8 +52,9 @@ app.use(function(req, res, next){
 app.use(campgroundRoutes);
 app.use(commentRoutes);
 app.use(indexRoutes);
+app.listen(process.env.PORT,process.env.IP);
 
-app.listen(process.env.IP,function(){
-    console.log("The Yelp Camp Server has Started!!!");
-})
+// app.listen(process.env.IP,function(){
+//     console.log("The Yelp Camp Server has Started!!!");
+// })
 
